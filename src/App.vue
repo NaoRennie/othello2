@@ -109,8 +109,6 @@ export default {
                  break;
                }else if (this.board[yy + d * n][xx + c * n] === oponentColor) {
                  candidates.push({ x:xx + c * n, y:yy + d * n });
-                 // eslint-disable-next-line 
-                 console.log('hothohtohtohto')
                  n += 1;
                } else {
                  confirmedPieces.push(...candidates)
